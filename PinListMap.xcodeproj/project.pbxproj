@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B676F0F01BD7E90900A75B51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B676F0EF1BD7E90900A75B51 /* main.m */; };
+		B676F0F31BD7E90900A75B51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B676F0F21BD7E90900A75B51 /* AppDelegate.m */; };
+		B676F0F61BD7E90900A75B51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B676F0F51BD7E90900A75B51 /* ViewController.m */; };
+		B676F0F91BD7E90900A75B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B676F0F71BD7E90900A75B51 /* Main.storyboard */; };
+		B676F0FB1BD7E90900A75B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B676F0FA1BD7E90900A75B51 /* Assets.xcassets */; };
+		B676F0FE1BD7E90900A75B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B676F0FC1BD7E90900A75B51 /* LaunchScreen.storyboard */; };
+		B676F1091BD7E90900A75B51 /* PinListMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B676F1081BD7E90900A75B51 /* PinListMapTests.m */; };
+		B676F1141BD7E90900A75B51 /* PinListMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B676F1131BD7E90900A75B51 /* PinListMapUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B676F1051BD7E90900A75B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B676F0E31BD7E90900A75B51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B676F0EA1BD7E90900A75B51;
+			remoteInfo = PinListMap;
+		};
+		B676F1101BD7E90900A75B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B676F0E31BD7E90900A75B51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B676F0EA1BD7E90900A75B51;
+			remoteInfo = PinListMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B676F0EB1BD7E90900A75B51 /* PinListMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinListMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B676F0EF1BD7E90900A75B51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B676F0F11BD7E90900A75B51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B676F0F21BD7E90900A75B51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B676F0F41BD7E90900A75B51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B676F0F51BD7E90900A75B51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B676F0F81BD7E90900A75B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B676F0FA1BD7E90900A75B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B676F0FD1BD7E90900A75B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B676F0FF1BD7E90900A75B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B676F1041BD7E90900A75B51 /* PinListMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinListMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B676F1081BD7E90900A75B51 /* PinListMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinListMapTests.m; sourceTree = "<group>"; };
+		B676F10A1BD7E90900A75B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B676F10F1BD7E90900A75B51 /* PinListMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinListMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B676F1131BD7E90900A75B51 /* PinListMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinListMapUITests.m; sourceTree = "<group>"; };
+		B676F1151BD7E90900A75B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B676F0E81BD7E90900A75B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B676F1011BD7E90900A75B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B676F10C1BD7E90900A75B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B676F0E21BD7E90900A75B51 = {
+			isa = PBXGroup;
+			children = (
+				B676F0ED1BD7E90900A75B51 /* PinListMap */,
+				B676F1071BD7E90900A75B51 /* PinListMapTests */,
+				B676F1121BD7E90900A75B51 /* PinListMapUITests */,
+				B676F0EC1BD7E90900A75B51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B676F0EC1BD7E90900A75B51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B676F0EB1BD7E90900A75B51 /* PinListMap.app */,
+				B676F1041BD7E90900A75B51 /* PinListMapTests.xctest */,
+				B676F10F1BD7E90900A75B51 /* PinListMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B676F0ED1BD7E90900A75B51 /* PinListMap */ = {
+			isa = PBXGroup;
+			children = (
+				B676F0F11BD7E90900A75B51 /* AppDelegate.h */,
+				B676F0F21BD7E90900A75B51 /* AppDelegate.m */,
+				B676F0F41BD7E90900A75B51 /* ViewController.h */,
+				B676F0F51BD7E90900A75B51 /* ViewController.m */,
+				B676F0F71BD7E90900A75B51 /* Main.storyboard */,
+				B676F0FA1BD7E90900A75B51 /* Assets.xcassets */,
+				B676F0FC1BD7E90900A75B51 /* LaunchScreen.storyboard */,
+				B676F0FF1BD7E90900A75B51 /* Info.plist */,
+				B676F0EE1BD7E90900A75B51 /* Supporting Files */,
+			);
+			path = PinListMap;
+			sourceTree = "<group>";
+		};
+		B676F0EE1BD7E90900A75B51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B676F0EF1BD7E90900A75B51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B676F1071BD7E90900A75B51 /* PinListMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				B676F1081BD7E90900A75B51 /* PinListMapTests.m */,
+				B676F10A1BD7E90900A75B51 /* Info.plist */,
+			);
+			path = PinListMapTests;
+			sourceTree = "<group>";
+		};
+		B676F1121BD7E90900A75B51 /* PinListMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B676F1131BD7E90900A75B51 /* PinListMapUITests.m */,
+				B676F1151BD7E90900A75B51 /* Info.plist */,
+			);
+			path = PinListMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B676F0EA1BD7E90900A75B51 /* PinListMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B676F1181BD7E90900A75B51 /* Build configuration list for PBXNativeTarget "PinListMap" */;
+			buildPhases = (
+				B676F0E71BD7E90900A75B51 /* Sources */,
+				B676F0E81BD7E90900A75B51 /* Frameworks */,
+				B676F0E91BD7E90900A75B51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinListMap;
+			productName = PinListMap;
+			productReference = B676F0EB1BD7E90900A75B51 /* PinListMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B676F1031BD7E90900A75B51 /* PinListMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B676F11B1BD7E90900A75B51 /* Build configuration list for PBXNativeTarget "PinListMapTests" */;
+			buildPhases = (
+				B676F1001BD7E90900A75B51 /* Sources */,
+				B676F1011BD7E90900A75B51 /* Frameworks */,
+				B676F1021BD7E90900A75B51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B676F1061BD7E90900A75B51 /* PBXTargetDependency */,
+			);
+			name = PinListMapTests;
+			productName = PinListMapTests;
+			productReference = B676F1041BD7E90900A75B51 /* PinListMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B676F10E1BD7E90900A75B51 /* PinListMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B676F11E1BD7E90900A75B51 /* Build configuration list for PBXNativeTarget "PinListMapUITests" */;
+			buildPhases = (
+				B676F10B1BD7E90900A75B51 /* Sources */,
+				B676F10C1BD7E90900A75B51 /* Frameworks */,
+				B676F10D1BD7E90900A75B51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B676F1111BD7E90900A75B51 /* PBXTargetDependency */,
+			);
+			name = PinListMapUITests;
+			productName = PinListMapUITests;
+			productReference = B676F10F1BD7E90900A75B51 /* PinListMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B676F0E31BD7E90900A75B51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Hongjin Su";
+				TargetAttributes = {
+					B676F0EA1BD7E90900A75B51 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7K8MG5DQM6;
+					};
+					B676F1031BD7E90900A75B51 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7K8MG5DQM6;
+						TestTargetID = B676F0EA1BD7E90900A75B51;
+					};
+					B676F10E1BD7E90900A75B51 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7K8MG5DQM6;
+						TestTargetID = B676F0EA1BD7E90900A75B51;
+					};
+				};
+			};
+			buildConfigurationList = B676F0E61BD7E90900A75B51 /* Build configuration list for PBXProject "PinListMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B676F0E21BD7E90900A75B51;
+			productRefGroup = B676F0EC1BD7E90900A75B51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B676F0EA1BD7E90900A75B51 /* PinListMap */,
+				B676F1031BD7E90900A75B51 /* PinListMapTests */,
+				B676F10E1BD7E90900A75B51 /* PinListMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B676F0E91BD7E90900A75B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B676F0FE1BD7E90900A75B51 /* LaunchScreen.storyboard in Resources */,
+				B676F0FB1BD7E90900A75B51 /* Assets.xcassets in Resources */,
+				B676F0F91BD7E90900A75B51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B676F1021BD7E90900A75B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B676F10D1BD7E90900A75B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B676F0E71BD7E90900A75B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B676F0F61BD7E90900A75B51 /* ViewController.m in Sources */,
+				B676F0F31BD7E90900A75B51 /* AppDelegate.m in Sources */,
+				B676F0F01BD7E90900A75B51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B676F1001BD7E90900A75B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B676F1091BD7E90900A75B51 /* PinListMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B676F10B1BD7E90900A75B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B676F1141BD7E90900A75B51 /* PinListMapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B676F1061BD7E90900A75B51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B676F0EA1BD7E90900A75B51 /* PinListMap */;
+			targetProxy = B676F1051BD7E90900A75B51 /* PBXContainerItemProxy */;
+		};
+		B676F1111BD7E90900A75B51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B676F0EA1BD7E90900A75B51 /* PinListMap */;
+			targetProxy = B676F1101BD7E90900A75B51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B676F0F71BD7E90900A75B51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B676F0F81BD7E90900A75B51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B676F0FC1BD7E90900A75B51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B676F0FD1BD7E90900A75B51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B676F1161BD7E90900A75B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B676F1171BD7E90900A75B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B676F1191BD7E90900A75B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PinListMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hongjin-Su.PinListMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B676F11A1BD7E90900A75B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PinListMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hongjin-Su.PinListMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B676F11C1BD7E90900A75B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PinListMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hongjin-Su.PinListMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinListMap.app/PinListMap";
+			};
+			name = Debug;
+		};
+		B676F11D1BD7E90900A75B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PinListMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hongjin-Su.PinListMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinListMap.app/PinListMap";
+			};
+			name = Release;
+		};
+		B676F11F1BD7E90900A75B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PinListMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hongjin-Su.PinListMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PinListMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B676F1201BD7E90900A75B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PinListMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hongjin-Su.PinListMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PinListMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B676F0E61BD7E90900A75B51 /* Build configuration list for PBXProject "PinListMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B676F1161BD7E90900A75B51 /* Debug */,
+				B676F1171BD7E90900A75B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B676F1181BD7E90900A75B51 /* Build configuration list for PBXNativeTarget "PinListMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B676F1191BD7E90900A75B51 /* Debug */,
+				B676F11A1BD7E90900A75B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B676F11B1BD7E90900A75B51 /* Build configuration list for PBXNativeTarget "PinListMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B676F11C1BD7E90900A75B51 /* Debug */,
+				B676F11D1BD7E90900A75B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B676F11E1BD7E90900A75B51 /* Build configuration list for PBXNativeTarget "PinListMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B676F11F1BD7E90900A75B51 /* Debug */,
+				B676F1201BD7E90900A75B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B676F0E31BD7E90900A75B51 /* Project object */;
+}
