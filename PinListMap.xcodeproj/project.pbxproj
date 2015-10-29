@@ -15,6 +15,8 @@
 		B676F0FE1BD7E90900A75B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B676F0FC1BD7E90900A75B51 /* LaunchScreen.storyboard */; };
 		B676F1091BD7E90900A75B51 /* PinListMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B676F1081BD7E90900A75B51 /* PinListMapTests.m */; };
 		B676F1141BD7E90900A75B51 /* PinListMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B676F1131BD7E90900A75B51 /* PinListMapUITests.m */; };
+		B676F1221BD7E96A00A75B51 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B676F1211BD7E96A00A75B51 /* MapKit.framework */; };
+		B676F1251BD7EC8000A75B51 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B676F1241BD7EC8000A75B51 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		B676F10F1BD7E90900A75B51 /* PinListMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinListMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B676F1131BD7E90900A75B51 /* PinListMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinListMapUITests.m; sourceTree = "<group>"; };
 		B676F1151BD7E90900A75B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B676F1211BD7E96A00A75B51 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B676F1231BD7EC8000A75B51 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B676F1241BD7EC8000A75B51 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B676F1221BD7E96A00A75B51 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 		B676F0E21BD7E90900A75B51 = {
 			isa = PBXGroup;
 			children = (
+				B676F1211BD7E96A00A75B51 /* MapKit.framework */,
 				B676F0ED1BD7E90900A75B51 /* PinListMap */,
 				B676F1071BD7E90900A75B51 /* PinListMapTests */,
 				B676F1121BD7E90900A75B51 /* PinListMapUITests */,
@@ -105,6 +112,8 @@
 				B676F0F21BD7E90900A75B51 /* AppDelegate.m */,
 				B676F0F41BD7E90900A75B51 /* ViewController.h */,
 				B676F0F51BD7E90900A75B51 /* ViewController.m */,
+				B676F1231BD7EC8000A75B51 /* MapViewController.h */,
+				B676F1241BD7EC8000A75B51 /* MapViewController.m */,
 				B676F0F71BD7E90900A75B51 /* Main.storyboard */,
 				B676F0FA1BD7E90900A75B51 /* Assets.xcassets */,
 				B676F0FC1BD7E90900A75B51 /* LaunchScreen.storyboard */,
@@ -276,6 +285,7 @@
 				B676F0F61BD7E90900A75B51 /* ViewController.m in Sources */,
 				B676F0F31BD7E90900A75B51 /* AppDelegate.m in Sources */,
 				B676F0F01BD7E90900A75B51 /* main.m in Sources */,
+				B676F1251BD7EC8000A75B51 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,10 +426,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PinListMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Hongjin-Su.PinListMap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -427,10 +441,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PinListMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Hongjin-Su.PinListMap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -501,6 +519,7 @@
 				B676F11A1BD7E90900A75B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B676F11B1BD7E90900A75B51 /* Build configuration list for PBXNativeTarget "PinListMapTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +528,7 @@
 				B676F11D1BD7E90900A75B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B676F11E1BD7E90900A75B51 /* Build configuration list for PBXNativeTarget "PinListMapUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +537,7 @@
 				B676F1201BD7E90900A75B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
